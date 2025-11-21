@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: us-central1-docker.pkg.dev/prj-poc-001/gke-repo/quickstart-image
+          image: us-central1-docker.pkg.dev/fleet-purpose-467517-g6/gke-repo/quickstart-image:latest
           ports:
             - containerPort: 8080
 ---
@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: us-central1-docker.pkg.dev/prj-poc-001/gke-repo/flask-image
+          image: us-central1-docker.pkg.dev/fleet-purpose-467517-g6/gke-repo/flask-image:latest
           ports:
             - containerPort: 8081
 ---

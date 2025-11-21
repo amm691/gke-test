@@ -7,5 +7,6 @@ metadata:
 description: prod
 requireApproval: true
 gke:
-  cluster: projects/prj-poc-001/locations/us-central1-c/clusters/cluster-2
+  cluster: projects/fleet-purpose-467517-g6/locations/us-central1-c/clusters/cluster-1
+
 
