@@ -7,7 +7,7 @@ In the modern software development landscape, Continuous Integration/Continuous 
 
 Video Tutorial :   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://youtu.be/L_1qbt-Iii0?feature=shared)
 
-## Requirements : 
+## Requirements : .
 
 To achieve our goal, we have the following requirements:
 - Deployment of two simple Flask applications (app1 & app2) on the GKE clusters.
