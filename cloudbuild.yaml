@@ -11,7 +11,11 @@ steps:
   id: 'Push Docker Image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/fleet-purpose-467517-g6/gke-repo/flask-image', './app2' ]
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/fleet-purpose-467517-g6/gke-repo/flask-image', './application-service' ]
+  id: 'Build Docker Image2'
+  
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/fleet-purpose-467517-g6/gke-repo/flask-image', './patient-service' ]
   id: 'Build Docker Image2'
 
   # images:
